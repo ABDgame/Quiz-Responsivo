@@ -16,7 +16,8 @@ body{
    border-radius: 10px;
 }
 .quiz-home-box{ /* TESTAR A SEPARAÇÃO NO MEU QUIZ*/
-   
+   text-align: center;
+   display: none;
 }
 .quiz-home-box h4{ /* TESTAR NO MEU QUIZ*/
     font-size: 30px;

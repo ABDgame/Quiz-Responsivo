@@ -35,9 +35,8 @@ body{
  cursor: pointer;
  white-space: nowrap;
 }
-.btn: focus{
+.btn:focus{
     outline: none;
-    
 }
 
 

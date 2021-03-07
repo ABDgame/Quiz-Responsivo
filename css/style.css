@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap');
 body{
       margin:0;
-      background-image: url("background.png"); 
+      background-image: url("css/background.png"); 
       background-attachment: fixed;
-} 
+}
+*{
+   box-sizing: border-box;
+}
+.custom-box{
+   max-width:800px;
+   background-color: #
+}
   

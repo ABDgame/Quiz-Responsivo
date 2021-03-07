@@ -3,12 +3,32 @@ body{
       margin:0;
       background-image: url("css/background.png"); 
       background-attachment: fixed;
+      font-family: 'Montserrat', sans-serif;
 }
 *{
    box-sizing: border-box;
 }
 .custom-box{
-   max-width:800px;
-   background-color: #
+   max-width:800px; /* TESTAR NO MEU QUIZ */
+   background-color: #ffffff;
+   margin: 30px auto; /*TESTAR NO MEU QUIZ*/
+   padding: 50px 40px; /* TESTAR NO MEU QUIZ*/
+   border-radius: 10px;
+}
+.quiz-home-box{ /* TESTAR A SEPARAÇÃO NO MEU QUIZ*/
+   
+}
+.quiz-home-box h4{ /* TESTAR NO MEU QUIZ*/
+    font-size: 30px;
+    font-weight: 400;
+    color:#444444;
+    margin: 0 0 30px; /* TESTAR NO MEU QUIZ*/
+}
+.btn{
+ background-color: #ff8b00;
+ border:2px solid #b96502;
+ padding:14px 15px;
+ color:#ffffff;
+ font-size: 20px;
 }
   

@@ -65,7 +65,9 @@ body{
     border: 2px solid #059e4c;
     font-weight: 800;
     line-height: 56px;
-    text-align: center; /* PAREI AQUI*/
+    text-align: center;
+    border-radius: 50%,
+    
     
 }
 .quiz-box .stats .score-board{
@@ -73,6 +75,9 @@ body{
    max-width: calc(50% - 20px);
    /* background-color: blue; */
    text-align: right;
+}
+.quiz-box .stats .score-board .correct-answers{ 
+    font-weight: 800;
 }
 .quiz-box .question-box{
     background-color: #ffffff;
@@ -107,8 +112,29 @@ body{
    font-family: 'Concert One', cursive;
    color:#665b49;
 }
-.see-result-btn{
-     display: none;
+.quiz-box .option-box{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
+.quiz-box .option-box .option{/* TENTAR ISTO NO CAMPO DE OPÇÕES DO MEU QUIZ SILABARIO */
+   background-color: #ffffff;
+   flex-basis: calc(50% - 20px);
+   max-width: calc(50% - 20px);
+   margin-top: 30px;
+   padding: 14px 15px;
+   text-align:center;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: 500;
+   color:#796746;
+   border:2px solid #c2af91;
+   border-radius:30px;
+   cursor: pointer;
+}
+.see-result-btn{
+   display: none;
+}
+
 
 

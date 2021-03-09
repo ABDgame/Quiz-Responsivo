@@ -42,6 +42,7 @@ body{
 }
 .quiz-box{/*PEGAR A COR DO BOX DO MEU QUIZ SILABARIO */
     background-color:#ebd8b7;
+    display: none;
 }
 .quiz-box .stats{
    display:flex;

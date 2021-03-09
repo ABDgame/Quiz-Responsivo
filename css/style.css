@@ -156,12 +156,22 @@ body{
   font-size: 50px;
   font-family:'Concert One', cursive;
   color:#f85943;
-  margin:0 0 30px;
+  margin:0 0 20px;
 }
 .quiz-over-box h4{
     font-size: 25px;
     font-weight: normal;
-    color:#5555555;
+    color:#444444;
+    margin:15px 0 25px;
+}
+.quiz-over-box h4 span{
+    font-weight: 800;
+    color:#111111;
+}
+.start-again-quiz-btn,
+.go-home-btn{
+    margin-top: 15px;
+    
 }
 
 

@@ -36,6 +36,7 @@ body{
  font-family: 'Montserrat', sans-serif;
  cursor: pointer;
  white-space: nowrap;
+ margin:0 10px; 
 }
 .btn:focus{
     outline: none;
@@ -148,6 +149,19 @@ body{
 .see-result-btn{
    display: none;
 }
-
+.quiz-over-box{
+    text-align: center;
+}
+.quiz-home-box h1{
+  font-size: 50px;
+  font-family:'Concert One', cursive;
+  color:#f85943;
+  margin:0 0 30px;
+}
+.quiz-over-box h4{
+    font-size: 25px;
+    font-weight: normal;
+    color:#5555555;
+}
 
 

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
 body{
       margin:0;
-      background-image: url("background.png"); 
+      background-image: url("background.png");
       background-attachment: fixed;
       font-family: 'Montserrat', sans-serif;
 }

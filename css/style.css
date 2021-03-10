@@ -10,7 +10,7 @@ body{
    box-sizing: border-box;
 }
 .custom-box{
-   max-width:800px; /* TESTAR NO MEU QUIZ SILABARIO*/
+   max-width:700px; /* TESTAR NO MEU QUIZ SILABARIO*/
    background-color: #ffffff;
    margin: 30px auto; /*TESTAR NO MEU QUIZ SILABARIO */
    padding: 50px 40px; /* TESTAR NO MEU QUIZ SILABARIO */

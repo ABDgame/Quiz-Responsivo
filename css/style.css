@@ -41,7 +41,7 @@ body{
 .btn:focus{
     outline: none;
 }
-.quiz-box{/*PEGAR A COR DO BOX DO MEU QUIZ SILABARIO */
+.quiz-box{/*PEGAR A COR DO BOX DO MEU QUIZ SILABARIO. ESTÁ É A CAIXA LARANJA */
     background-color:#ebd8b7;
 }
 .quiz-box .stats{

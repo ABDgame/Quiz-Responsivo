@@ -29,5 +29,12 @@ body{
 .home-box p{
     font-size: 16px;
     margin-bottom:10px;
+    line-height: 22px;
+    color:#000000;
+    font-weight: 400;
+}
+.home-box p span{
+    font-weight: 500;
+    
 }
 

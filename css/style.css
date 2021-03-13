@@ -13,21 +13,21 @@ body{
    outline:;
 }
 .custom-box{
-   max-width:700px; /* TESTAR NO MEU QUIZ SILABARIO*/
+   max-width:700px;
    background-color: #ffffff;
-   margin: 30px auto; /*TESTAR NO MEU QUIZ SILABARIO */
-   padding: 50px 40px; /* TESTAR NO MEU QUIZ SILABARIO */
+   margin: 30px auto; 
+   padding: 50px 40px;  
    border-radius: 10px;
 }
-.quiz-home-box{ /* TESTAR A SEPARAÇÃO NO MEU QUIZ SILABARIO */
+.quiz-home-box{ 
    text-align: center;
    display: none;
 }
-.quiz-home-box h4{ /* TESTAR NO MEU QUIZ SILABARIO */
+.quiz-home-box h4{ 
     font-size: 30px;
     font-weight: 400;
     color:#444444;
-    margin: 0 0 30px; /* TESTAR NO MEU QUIZ SILABARIO */
+    margin: 0 0 30px; 
 }
 .btn{
  background-color: #ff8b00;

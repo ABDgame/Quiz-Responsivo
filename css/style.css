@@ -8,6 +8,9 @@ body{
 }
 *{
    box-sizing: border-box;
+   margin:0;
+   padding:0;
+   outline:;
 }
 .custom-box{
    max-width:700px; /* TESTAR NO MEU QUIZ SILABARIO*/

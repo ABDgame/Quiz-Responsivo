@@ -19,6 +19,10 @@ body{
    padding:30px;
    border-radius: 10px; 
 }
+.custom-box.hide{
+   display:none;
+   
+}
 .home-box h3{
     font-size: 18px;
     color:#000000;
@@ -69,5 +73,15 @@ body{
     margin:0;
 }
 .quiz-box .option-container{}
+.quiz-box .option-container .option{
+    background-color:#cccccc;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    color:#000000;
+    border-radius: 5px;
+    margim-bottom: 10px;
+    cursor: pointer;
+}
 .quiz-box. answer-indicator{}
 

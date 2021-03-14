@@ -127,5 +127,10 @@ body{
     margin:30px 0:
 .result-box table td{
     border:1px solid #cccccc;
+    padding:8px 15px;
+    font-weight: 500;
+    color:000000;
+    width: 50%;
+    text
 }
 .result-box .btn{}

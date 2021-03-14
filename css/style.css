@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wight@400,500,700&display=swap');
 body{
       margin:0;
-      background-image: url("BACKGROUND.JPG");
+      background-image: url("BACKGROUND2.JPG");
       background-attachment: fixed;
       font-family: 'Montserrat', sans-serif;
       font-weight: 400;
@@ -53,6 +53,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     cursor: pointer;
+    display: inline-block;
 }
 .quiz-box .question-number{
     font-size: 18px;

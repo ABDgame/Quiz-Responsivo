@@ -55,6 +55,12 @@ body{
     cursor: pointer;
     display: inline-block;
 }
+.quiz-box .question-number,
+.quiz-box .question-text,
+.quiz-box .option-container,
+.quiz-box .answers-indicator{
+
+}
 .quiz-box .question-number{
     font-size: 18px;
     color:#009688;
@@ -73,7 +79,7 @@ body{
     padding: 20px 0;
     margin:0;
 }
-.quiz-box .option-container{}
+
 .quiz-box .option-container .option{
     background-color:#cccccc;
     padding: 15px;
@@ -83,6 +89,22 @@ body{
     border-radius: 5px;
     margim-bottom: 10px;
     cursor: pointer;
+    text-transform: capitalize;
 }
-.quiz-box. answer-indicator{}
+.quiz-box .btn{
+    margin:15px 0;
+}
+.quiz-box .answer-indicator{
+    border-top:1px solid  #cccccc;
+}
+.quiz-box .answer-indicator div{
+    height:40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #cccccc;
+    border-radius:50%;
+    margin-right: 3px;
+    margin-top: 15px;
+    
+}
 

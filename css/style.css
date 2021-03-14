@@ -19,9 +19,14 @@ body{
    padding:30px;
    border-radius: 10px; 
 }
+.custom-box::before,
+.custom-box::after{
+    content:'';
+    clear:both;
+    display:table;
+}
 .custom-box.hide{
    display:none;
-   
 }
 .home-box h3{
     font-size: 18px;
@@ -53,6 +58,15 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     cursor: pointer;
+    display:inline-block;
+}
+.quiz-box. question-number,
+.quiz-box .question-text,
+.quiz-box .option-container,
+.quiz-box .next-question-btn, 
+.quiz-box .answer-indicator{
+  width: 100%;
+  float: left;
 }
 .quiz-box .question-number{
     font-size: 18px;
@@ -60,7 +74,7 @@ body{
     font-weight:600;
     border-bottom:1px solid #cccccc;
     padding-bottom:10px;
-    Line-height:25
+    line-height:25px
 
 }
 .quiz-box .question-text{
@@ -70,9 +84,8 @@ body{
     font-weight: 400;
     padding: 20px 0;
     margin:0;
-    
 }
-.quiz-box .option-container{}
+
 .quiz-box .option-container. option{
     background-color: #cccccc;
     padding: 15px;
@@ -82,7 +95,20 @@ body{
     border-radius:5px;
     margin-bottom:10px;
     cursor: pointer;
+    text-transform: capitalize;
 }
-.quiz-box .answers-indicator{
-
+.quiz-box .btn{
+    margin:15px 0;
+}
+.quiz-box..answers-indicator{
+    border-top: 1px solid #cccccc;
+}
+.quiz-box .answers-indicator div{
+    height:40px;
+    width:40px;
+    display: inline-block;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin-right:3px;
+    margin-top: 15px
 }

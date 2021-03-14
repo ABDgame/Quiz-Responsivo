@@ -50,4 +50,8 @@ body{
     font-size: 16px;
     cursor: pointer;
 }
+.quiz-box .question-number{}
+.quiz-box .question-text{}
+.quiz-box .option-container{}
+.quiz-box. answer{}
 

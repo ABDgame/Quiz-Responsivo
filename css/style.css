@@ -88,7 +88,7 @@ body{
     padding: 20px 0;
     margin:0;
 }
-
+.quiz-box .option-container{}
 .quiz-box .option-container. option{
     background-color: #cccccc;
     padding: 15px;

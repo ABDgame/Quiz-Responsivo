@@ -118,6 +118,9 @@ body{
 .result-box{
     text-align: center;
 }
+.result-box.hide{
+    display:none;
+}
 .result-box h1{
     font-size: 36px;
     line-height:42px; 

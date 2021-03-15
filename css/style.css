@@ -122,18 +122,22 @@ body{
     font-size: 36px;
     line-height:42px; 
     color:#009688;
-
 }
-.result-box table{}
+.result-box table{
     widtn:100%;
     border-collapse: collapse;
-    margin:30px 0:
+    margin:30px 0;
+}
 .result-box table td{
     border:1px solid #cccccc;
     padding:8px 15px;
     font-weight: 500;
     color:000000;
     width: 50%;
-    text
+    text-align: left;
+    font-size: 18px;
 }
-.result-box .btn{}
+.result-box .btn{
+   margin-right: 20px;
+   
+}

@@ -9,8 +9,8 @@ body{
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      /*font-family: 'Montserrat', sans-serif;
-      font-weight: 400; */
+      font-family: 'Montserrat', sans-serif;
+      /*font-weight: 400; */
 }
 *{
       box-sizing: border-box;
@@ -21,11 +21,11 @@ body{
 .custom-box{
    max-width:700px;
    background-color: red;
-   /* margin:60px auto; 
+   margin:60px auto; 
    padding:30px;
    border-radius: 10px; 
 }
-.custom-box::before,
+/*.custom-box::before,
 .custom-box::after{
     content:'';
     clear:both;

@@ -2,9 +2,10 @@
 
 const quiz = [
  {
-    q: 'Imagem do ABACAXI  ' ,
+    img: 'img/ABACAXI.jpg',
     options:[ 'AMORA','ABACAXI','ABACATE','AÇAI'],
     answer:1
+  
    },
 
 

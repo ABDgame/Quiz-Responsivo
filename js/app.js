@@ -8,7 +8,7 @@ let questionContainer = 0;
 let currentQuestion;
 let avaliableQuestion = [  ];
 
-//coloque as perguntas no array availableQuestions 
+//coloca as perguntas no array availableQuestions 
 
 function setAvailableQuestions( ){
     const totalQuestion = quiz.length;

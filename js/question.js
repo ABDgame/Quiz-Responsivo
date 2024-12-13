@@ -2,7 +2,7 @@
 
 const quiz = [
  {
-    img: 'img/ABACAXI.jpg',
+    q: 'Qual o meu nome?',
     options:[ 'AMORA','ABACAXI','ABACATE','AÇAI'],
     answer:1
   
@@ -10,125 +10,125 @@ const quiz = [
 
 
 {
-    img: 'img/ESCADA.jpg' ,
+    q: 'Qual o meu nome?',
     options:[ "EMA","ESTOJO","ELEFANTE","ESCADA" ],
     answer:3
    },
 
 
 {
-    img: 'img/INDIO.jpg' ,
+    q: 'Qual o meu nome?',
     options:[ "ÍNDIO","IOGURTE","IGREJA","IMÃ" ],
     answer:0
    },
 
 
 {
-    img: 'img/URSO.jpg' ,
+    q: 'Qual o meu nome?',
     options:[ "UVA","UNHA","URUBU","URSO" ],
     answer:3
    },
 
 
 {
-    q: Imagem da Orelha,
+    q: 'Qual o meu nome?',
     options:[ "OITO","OCELHA","ORELHA","OURO" ],
     answer:2
    },
 
 
 {
-    q: Imagem da ARANHA ,
+    q: 'Qual o meu nome?',
     options:[ "ÁRVORE","ANEL","ARANHA","ASTRONAUTA" ],
     answer:2
    }, 
 
 
 {
-    q: Imagem da ESTRELA,
+    q: 'Qual o meu nome?',
     options:[ "ESCOVA","ELEFANTE","ESPINHO","ESTRELA" ],
     answer:3
    },
 
 
 {
-    q: Imagem do ÓCULOS,
+    q: 'Qual o meu nome?',
     options:[ "OLHOS","ÓCULOS","OURO","OITO" ],
     answer:1
    },
 
 
 {
-    q: Imagem da ILHA ,
+    q: 'Qual o meu nome?',
     options:[ "ÍNDIO","ILHA","IATE","IMÃ" ],
     answer:1
    },
 
 
 {
-    q: Imagem da HIENA ,
+    q: 'Qual o meu nome?',
     options:[ "HOJE","HIPIPOTAMO","HOMEM","HIENA" ],
     answer:3
    },
 
 
 {
-    q: Imagem da HARPA ,
+    q: 'Qual o meu nome?',
     options:[ "HORA","ILHA","HARPA","HIENA" ],
     answer:2
    },
 
 
 {
-    q: Imagem da HORA ,
+    q: 'Qual o meu nome?',
     options:[ "HORA","HORTA","HOMEM","HIENA" ],
     answer:0
    },
 
 
 {
-    q: Imagem da HORTA ,
+    q: 'Qual o meu nome?',
     options:[ "HORTELÃ","HARPA","HORA","HORTA" ],
     answer:3
    },
 
 {
-    q: Imagem da HOSPITAL,
+    q: 'Qual o meu nome?',
     options:[ "HINO","HOSPITAL","HIENA","HOMEM" ],
     answer:1
    },
 
 
 {
-    q: Imagem da HOTEL ,
+    q: 'Qual o meu nome?',
     options:[ "HOTEL","HOMEM","HARPA","HIENA" ],
     answer:0
    },
 
 
 {
-    q: Imagem da HELICÓPTERO,
+    q: 'Qual o meu nome?',
     options:[ "HERCULES","HIENA","HINO","HÉRCULES" ],
     answer:3
    },
 
 
 {
-    q: Imagem da HORTELÃ  ,
+    q: 'Qual o meu nome?',
     options:[ "HELICOPTERO","HOJE","HORTELÃ","HORA" ],
     answer:1
    },
 
 
 {
-    q: Imagem da JIPE ,
+    q: 'Qual o meu nome?',
     options:[ "JILÓ","JIPE","JOGO","JÓIA" ],
     answer:1
    },
 
 
 {
-    q: Imagem da JÓIA  ,
+    q: 'Qual o meu nome?',
     options:[ 'JOIA','JOANINHA','JUJUBA','JOGADOR'],
     answer:0
    },

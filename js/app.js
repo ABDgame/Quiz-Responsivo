@@ -2,11 +2,12 @@ const questionNumber = document.querySelector(".question-number");
 
 const questionText = document.querySelector(".question-text");
 
-const optionContainer = document.querySelector("option-container");
+const optionContainer = document.querySelector(".option-container");
 
 let questionContainer = 0;
 let currentQuestion;
-let avaliableQuestion = [  ];
+let avaliableQuestion = [];
+let availableOptions = [];
 
 //Coloca as perguntas no array availableQuestions 
 
@@ -27,9 +28,25 @@ function getNewQuestion(){
    questionText.innerHTML = currentQuestion.q;
    //Obtem a posição de 'questionIndex' no array availableQuestions
    const index1= availableQuestions.indexOf(questionIndex); 
-    console.log(index1)
-    console.log(questionIndex)
-   questionCounter++
+    //remova o'questionIndex' no array availableQuestions, para que a pergunta não se repita
+    availableQuestions.splice(index1,1);
+    //definir opções
+    //obtém o comprimento das opções
+    const optionLen = currentQuestion.options.length
+    //coloca as opções no array availableOptions
+    for(let i=0; i<optionLen; i++){
+        availableOptions.push(i)
+    }
+    //Cria opções em HTML
+    for(let i=0; i<optionLen; i++){
+       const option = document.createElement("div");
+       option.innerHTML = currentQuestion.options[i];
+       option.id = i;
+       option.className = "option";
+       optionContainer.appendChild(option)
+       
+    }
+    questionCounter++
 }
 function next(){
     if(questionCounter === quiz.length){

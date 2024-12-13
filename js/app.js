@@ -25,7 +25,19 @@ function getNewQuestion(){
    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)]
    currentQuestion = questionIndex;
    questionText.innerHTML = currentQuestion.q;
+   console.log(questionIndex)
+    
+   questionCounter++
 }
+function next(){
+    if(questionCounter === quiz.length){
+        console.log("quiz over");
+    }
+    else{
+        getNewQuestion();
+    }
+}
+
 window.onload = function(){
    // Primeiro vai definir todas as perguntas no array availableQuestions
    setAvailableQuestions();

@@ -11,7 +11,7 @@ let availableOptions = [];
 
 //Coloca as perguntas no array availableQuestions 
 
-function setAvailableQuestions( ){
+function setAvailableQuestions(){
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
         availableQuestions.push(quiz[i]) 

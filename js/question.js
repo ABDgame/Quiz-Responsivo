@@ -107,9 +107,9 @@ const quiz = [
 
 
 {
-    q: 'Qual o meu nome?',
-    options:[ "HERCULES","HIENA","HINO","HÉRCULES" ],
-    answer:3
+    q: '3 + 4 = 7 ?',
+    options:[ 'true','false'],
+    answer:0
    },
 
 

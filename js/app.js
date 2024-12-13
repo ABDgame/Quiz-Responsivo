@@ -23,7 +23,8 @@ function getNewQuestion(){
    // Definir o texto da pergunta 
    // Receber pergunta aleatória
    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)]
-    
+   currentQuestion = questionIndex;
+   questionText.innerHTML = currentQuestion.q;
 }
 window.onload = function(){
    // Primeiro vai definir todas as perguntas no array availableQuestions

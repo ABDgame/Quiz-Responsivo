@@ -10,21 +10,21 @@ const quiz = [
 
 
 {
-    q: Imagem da ESCADA ,
+    img: 'img/ESCADA.jpg' ,
     options:[ "EMA","ESTOJO","ELEFANTE","ESCADA" ],
     answer:3
    },
 
 
 {
-    q: Imagem do ÍNDIO ,
+    img: 'img/INDIO.jpg' ,
     options:[ "ÍNDIO","IOGURTE","IGREJA","IMÃ" ],
     answer:0
    },
 
 
 {
-    q: Imagem do Urso ,
+    img: 'img/URSO.jpg' ,
     options:[ "UVA","UNHA","URUBU","URSO" ],
     answer:3
    },

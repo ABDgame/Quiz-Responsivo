@@ -21,7 +21,8 @@ function getNewQuestion(){
    // Definir o número da pergunta
    questionNumber.innerHTML = " Questão " + (questionCounter + 1) + " de " + quiz.length;
    // Definir o texto da pergunta 
-   // Receber pergunta aleatória 
+   // Receber pergunta aleatória
+   const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)]
     
 }
 window.onload = function(){

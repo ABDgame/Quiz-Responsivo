@@ -10,16 +10,16 @@ let avaliableQuestion = [  ];
 
 //push the questions into avaliableQuestions Array
 
-function setAvaliableQuestions( ){
+function setAvailableQuestions( ){
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
-   avaliable 
+        availableQuestions.push(quiz[i]) 
 
  }
 }
 
 window.onload = function( ){
 
-   setAvaliableQuestions( );
+   setAvailableQuestions( );
 }
 

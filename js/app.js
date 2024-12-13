@@ -14,10 +14,11 @@ function setAvailableQuestions( ){
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
         availableQuestions.push(quiz[i]) 
-
  }
 }
-
+function getNewQuestion(){
+    
+}
 window.onload = function( ){
 
    setAvailableQuestions( );

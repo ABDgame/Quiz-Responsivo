@@ -8,7 +8,7 @@ let questionContainer = 0;
 let currentQuestion;
 let avaliableQuestion = [  ];
 
-//push the questions into avaliableQuestions Array
+//coloque as perguntas no array availableQuestions 
 
 function setAvailableQuestions( ){
     const totalQuestion = quiz.length;
@@ -16,11 +16,17 @@ function setAvailableQuestions( ){
         availableQuestions.push(quiz[i]) 
  }
 }
+//Definir o número da pergunta e as opções das perguntas
 function getNewQuestion(){
+   // Definir o número da pergunta
+   questionNumber.innerHTML = " Questão " + (questionCounter + 1) + " de " + quiz.length;
+    
     
 }
-window.onload = function( ){
-
-   setAvailableQuestions( );
+window.onload = function(){
+   // primeiro vai definir todas as perguntas no array availableQuestions
+   setAvailableQuestions();
+   // segundo vai ligar para obter o valor da função getNewQuestion;
+   getNewQuestion();
 }
 

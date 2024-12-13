@@ -25,9 +25,10 @@ function getNewQuestion(){
    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)]
    currentQuestion = questionIndex;
    questionText.innerHTML = currentQuestion.q;
-   //Obtem a posição de 'questionIndex'
+   //Obtem a posição de 'questionIndex' no array availableQuestions
    const index1= availableQuestions.indexOf(questionIndex); 
-    
+    console.log(index1)
+    console.log(questionIndex)
    questionCounter++
 }
 function next(){

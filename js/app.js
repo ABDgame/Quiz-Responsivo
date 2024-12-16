@@ -67,6 +67,13 @@ function getResult(element){
     else{
         //define a cor vermelha para a opção errada
         element.classList.add("wrong");
+        //Se a resposta estiver incorreta, mostre a opção correta adicionando a cor verde à opção correta.
+        const optionLen = optionContainer.children.length;
+        for(let i=0; i<optionLen; i++){
+            if(parseInt(optionContainer.children[i].id) === currentQuestion.answer{
+                element.classList.add("correct"); 
+            })
+        }
     }
     unclickableOptions();
 }

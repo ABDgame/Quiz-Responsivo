@@ -50,14 +50,26 @@ function getNewQuestion(){
        option.style.animationDelay = animationDelay + 's'; 
        animationDelay = animationDelay + 0.15;
        option.className = "option";
-       optionContainer.appendChild(option)   
+       optionContainer.appendChild(option) 
+       option.setAttribute("onclick","getResult(this)"); 
     }
     
-    questionCounter++
-    
+    questionCounter++    
+}
+// Obter o resultado da pergunta na tentativa atual
+function getResult(element){
+    const id = parseInt(element.id);
+    //Obtêm a resposta comparando o id da opção clicada
+    if(id === currentQuestion.answer){
+        //define a cor verde para a opção correta
+        element.classList.add("CORRETA");
+    }
+    else{
+        console.log("ERRADA");
+    }
 }
 function next(){
-    if(questionCounter === quiz.length){
+    if(questionCounter === quiz.length){    
         console.log("quiz over");
     }
     else{

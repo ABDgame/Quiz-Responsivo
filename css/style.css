@@ -107,6 +107,9 @@ body{
      position: relative;
      overflow: hidden;
 }
+.quiz-box .option-container .option.already-answered{
+     pointer-events: none; 
+}
 @keyframes fadeIn{
       0%{
             opacity:0;

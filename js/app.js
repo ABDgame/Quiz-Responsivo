@@ -62,11 +62,19 @@ function getResult(element){
     //Obtêm a resposta comparando o id da opção clicada
     if(id === currentQuestion.answer){
         //define a cor verde para a opção correta
-        element.classList.add("CORRETA");
+        element.classList.add("correct");
     }
     else{
         //define a cor vermelha para a opção errada
-        console.log("ERRADA");
+        element.classList.add("wrong");
+    }
+    unclickableOptions();
+}
+//Tornar todas as opções inclicáveis ​​​​quando o usuário selecionar uma opção (RESTRITAR O USUÁRIO A ALTERAR A OPÇÃO NOVAMENTE)
+function unclickableOptions(){
+    const optionLen = optionContainer.children.length;
+    for(let i=0 ; i<optionLen; i++){
+        optionContainer.children[i].classList.add("already-answered");
     }
 }
 function next(){

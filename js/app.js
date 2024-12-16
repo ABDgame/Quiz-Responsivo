@@ -34,7 +34,7 @@ function getNewQuestion(){
     for(let i=0; i<optionLen; i++){
         availableOptions.push(i)
     }
-
+    optionContainer.innerHTML = '';
     let animationDelay = 0.15;
     //Cria opções em HTML
     for(let i=0; i<optionLen; i++){
@@ -65,6 +65,7 @@ function getResult(element){
         element.classList.add("CORRETA");
     }
     else{
+        //define a cor vermelha para a opção errada
         console.log("ERRADA");
     }
 }

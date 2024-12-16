@@ -36,6 +36,13 @@ function getNewQuestion(){
     }
     //Cria opções em HTML
     for(let i=0; i<optionLen; i++){
+        //opção aleatória
+       const optonIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)]; 
+       // Obtém a posição de 'optonIndex' nas availableOptions
+       const index2 = availableOptions.indexOf(optonIndex);
+       //Remove o 'optonIndex' das opções disponíveis, para que a 'availableOptions' não se repita 
+       availableOptions.splice(index2,1);
+       console.log(optonIndex)
        const option = document.createElement("div");
        option.innerHTML = currentQuestion.options[i];
        option.id = i;

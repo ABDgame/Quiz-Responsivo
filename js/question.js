@@ -26,15 +26,11 @@ const quiz = [
     options:['OITO','OVELHA','ORELHA','OURO'],
     answer:2
    },
-
-
 {
     q: 'Qual o meu nome?',
     options:['ÁRVORE','ANEL','ARANHA','ASTRONAUTA'],
     answer:2
    }, 
-
-
 {
     q: 'Qual o meu nome?',
     options:['ESCOVA','ELEFANTE','ESPINHO','ESTRELA'],
@@ -50,8 +46,6 @@ const quiz = [
     options:['ÍNDIO','ILHA','IATE','IMÃ'],
     answer:1
    },
-
-
 {
     q: 'Qual o meu nome?',
     options:['HOJE','HIPIPOTAMO','HOMEM','HIENA'],

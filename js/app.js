@@ -40,10 +40,11 @@ function getNewQuestion(){
        option.innerHTML = currentQuestion.options[i];
        option.id = i;
        option.className = "option";
-       optionContainer.appendChild(option)
-       
+       optionContainer.appendChild(option)   
     }
+    
     questionCounter++
+    
 }
 function next(){
     if(questionCounter === quiz.length){

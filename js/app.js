@@ -6,7 +6,7 @@ const optionContainer = document.querySelector(".option-container");
 
 let questionContainer = 0;
 let currentQuestion;
-let avaliableQuestion = [];
+let availableQuestion = [];
 let availableOptions = [];
 
 //Coloca as perguntas no array availableQuestions 

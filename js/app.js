@@ -1,6 +1,6 @@
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
-const optionContainer = document.querySelector("option-container");
+const optionContainer = document.querySelector(".option-container");
 
 let questionCounter = 0;
 let currentQuestion;
@@ -12,7 +12,7 @@ function setAvailableQuestions(){
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
         availableQuestions.push(quiz[i]) 
- }
+  }
 }
 // Defini o número da pergunta e as opções das perguntas
 function getNewQuestion(){

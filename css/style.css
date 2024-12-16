@@ -120,6 +120,10 @@ body{
   position: absolute;
   left: 0;
   top:0;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+      
 }
 .quiz-box .btn{
     margin:15px 0;

@@ -42,10 +42,9 @@ function getNewQuestion(){
        const index2 = availableOptions.indexOf(optonIndex);
        //Remove o 'optonIndex' das opções disponíveis, para que a 'availableOptions' não se repita 
        availableOptions.splice(index2,1);
-       console.log(optonIndex)
        const option = document.createElement("div");
-       option.innerHTML = currentQuestion.options[i];
-       option.id = i;
+       option.innerHTML = currentQuestion.options[optonIndex];
+       option.id = optonIndex;
        option.className = "option";
        optionContainer.appendChild(option)   
     }

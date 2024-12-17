@@ -38,7 +38,7 @@ function getNewQuestion(){
     let animationDelay = 0.15;
     //Cria opções em HTML
     for(let i=0; i<optionLen; i++){
-        //opção aleatória
+        //Opção aleatória
        const optonIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)]; 
        // Obtém a posição de 'optonIndex' nas availableOptions
        const index2 = availableOptions.indexOf(optonIndex);

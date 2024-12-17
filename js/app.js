@@ -69,9 +69,9 @@ function getResult(element){
         //Se a resposta estiver incorreta, mostre a opção correta adicionando a cor verde à opção correta.
         const optionLen = optionContainer.children.length;
         for(let i=0; i<optionLen; i++){
-            if(parseInt(optionContainer.children[i].id) === currentQuestion.answer{
-                element.classList.add("correct"); 
-            })
+            if(parseInt(optionContainer.children[i].id) === currentQuestion.answer){
+                optionContainer.children[i].classList.add("correct"); 
+            }
         }
     }
     unclickableOptions();

@@ -127,11 +127,13 @@ function quizOver(){
 }
 //Mostra o resultado do quiz
 function quizResult(){
-   quizBox.querySelector(".total-question").innerHTML =
-   quizBox.querySelector(".total-attempt").innerHTML =  
-   quizBox.querySelector(".total-correct").innerHTML =  
-   quizBox.querySelector(".total-percentage").innerHTML =  
-   quizBox.querySelector(".total-score").innerHTML =  
+   resultBox.querySelector(".total-question").innerHTML = quiz.length;
+   resultBox.querySelector(".total-attempt").innerHTML = attempt;  
+   resultBox.querySelector(".total-correct").innerHTML = correctAnswers; 
+   resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
+   const percentage = (correctAnswers/quiz.length)*100; 
+   resultBox.querySelector(".total-percentage").innerHTML =percentage.toFixed() + "%" ; 
+   resultBox.querySelector(".total-score").innerHTML =correctAnswers + " / " + quiz.length;  
 }
 window.onload = function(){
    // Primeiro vai definir todas as perguntas no array availableQuestions

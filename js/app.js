@@ -95,6 +95,10 @@ function answersIndicator(){
         answersIndicatorContainer.appendChild(indicator);
     }
 }
+function updateAnswerIndicator(markType){
+    answersIndicatorContainer.children[questionCounter-1].classList.add(markType)
+}
+
 function next(){
     if(questionCounter === quiz.length){    
         console.log("quiz over");

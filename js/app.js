@@ -63,10 +63,14 @@ function getResult(element){
     if(id === currentQuestion.answer){
         //define a cor verde para a opção correta
         element.classList.add("correct");
+        //Adiciona o indicador à marca correta
+        updateAnswerIndicator("correct");
     }
     else{
         //define a cor vermelha para a opção errada
         element.classList.add("wrong");
+        //Adiciona o indicador à marca errada
+        updateAnswerIndicator("wrong");
         //Se a resposta estiver incorreta, mostre a opção correta adicionando a cor verde à opção correta.
         const optionLen = optionContainer.children.length;
         for(let i=0; i<optionLen; i++){

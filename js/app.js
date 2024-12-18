@@ -72,6 +72,7 @@ function getResult(element){
         //Adiciona o indicador à marca correta
         updateAnswerIndicator("correct");
         correctAnswers++;
+        console.log("correct:"+correctAnswers)
     }
     else{
         //define a cor vermelha para a opção errada
@@ -116,7 +117,7 @@ function next(){
         getNewQuestion();
     }
 }
-function quizOver(){
+//function quizOver(){
     
 }
 window.onload = function(){

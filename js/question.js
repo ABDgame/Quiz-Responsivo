@@ -91,6 +91,11 @@ const quiz = [
     options:[ 'DIAMANTE','DIA','DEDO','DEDAL'],
     answer:1
    },
+ {
+    q: 'Qual o meu nome?',
+    options:[ 'FERRO','FELIZ','FADA','FEIJÃO'],
+    answer:3
+   },
 {
     q: 'Qual o meu nome?',
     options:[ 'DIAMANTE','DEDAL','DITADO','DIA'],

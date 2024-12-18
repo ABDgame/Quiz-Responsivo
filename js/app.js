@@ -135,6 +135,10 @@ function quizResult(){
    resultBox.querySelector(".percentage").innerHTML =percentage.toFixed(2) + "%" ; 
    resultBox.querySelector(".total-score").innerHTML =correctAnswers + " / " + quiz.length;  
 }
+function tryAgainQuiz(){
+    
+}
+
 window.onload = function(){
    // Primeiro vai definir todas as perguntas no array availableQuestions
    setAvailableQuestions();

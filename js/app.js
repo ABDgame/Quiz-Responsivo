@@ -98,6 +98,7 @@ function unclickableOptions(){
     }
 }
 function answersIndicator(){
+    answersIndicatorContainer.innerHTML = '';
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
         const indicator = document.createElement("div");
@@ -117,8 +118,11 @@ function next(){
         getNewQuestion();
     }
 }
-//function quizOver(){
-    
+function quizOver(){
+   //Ocultar quizBox
+   quizBox.classList.add("hide");
+   //Mostrar a caixa de resultado
+  resultBox.classList.remove("hide");
 }
 window.onload = function(){
    // Primeiro vai definir todas as perguntas no array availableQuestions

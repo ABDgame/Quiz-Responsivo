@@ -123,6 +123,15 @@ function quizOver(){
    quizBox.classList.add("hide");
    //Mostrar a caixa de resultado
   resultBox.classList.remove("hide");
+  quizResult();  
+}
+//Mostra o resultado do quiz
+function quizResult(){
+   quizBox.querySelector(".total-question").innerHTML =
+   quizBox.querySelector(".total-attempt").innerHTML =  
+   quizBox.querySelector(".total-correct").innerHTML =  
+   quizBox.querySelector(".total-percentage").innerHTML =  
+   quizBox.querySelector(".total-score").innerHTML =  
 }
 window.onload = function(){
    // Primeiro vai definir todas as perguntas no array availableQuestions

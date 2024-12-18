@@ -83,6 +83,12 @@ function unclickableOptions(){
         optionContainer.children[i].classList.add("already-answered");
     }
 }
+function answersIndicator(){
+    const totalQuestion = quiz.length;
+    for(let i=0; i<totalQuestion; i++){
+        const indicator = document.createElement("div");
+    }
+}
 function next(){
     if(questionCounter === quiz.length){    
         console.log("quiz over");
@@ -97,5 +103,7 @@ window.onload = function(){
    setAvailableQuestions();
    // Segundo vai ligar para obter o valor da função getNewQuestion;
    getNewQuestion();
+   //Para criar indicador de respostas
+   answersIndicator();
 }
 

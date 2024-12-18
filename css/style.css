@@ -169,6 +169,10 @@ body{
     margin-right: 3px;
     margin-top: 15px;
 }
+.quiz-box .answers-indicator div.correct{
+    background-color: green;
+}
+.quiz-box .answers-indicator div.wrong{}
 .result-box{
     text-align: center;
 }

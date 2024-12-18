@@ -132,7 +132,7 @@ function quizResult(){
    resultBox.querySelector(".total-correct").innerHTML = correctAnswers; 
    resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
    const percentage = (correctAnswers/quiz.length)*100; 
-   resultBox.querySelector(".total-percentage").innerHTML =percentage.toFixed() + "%" ; 
+   resultBox.querySelector(".percentage").innerHTML =percentage.toFixed() + "%" ; 
    resultBox.querySelector(".total-score").innerHTML =correctAnswers + " / " + quiz.length;  
 }
 window.onload = function(){

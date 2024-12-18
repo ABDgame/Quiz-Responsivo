@@ -88,6 +88,7 @@ function answersIndicator(){
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
         const indicator = document.createElement("div");
+        answersIndicatorContainer.appendChild(indicator);
     }
 }
 function next(){

@@ -2,11 +2,17 @@ const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
 const optionContainer = document.querySelector(".option-container");
 const answersIndicatorContainer = document.querySelector(".answers-indicator");
+const homeBox = document.querySelector(".home-box");
+const quizBox = document.querySelector(".quiz-box");
+const resultBox = document.querySelector(".result-box");
 
 let questionCounter = 0;
 let currentQuestion;
 let availableQuestions = [];
 let availableOptions = [];
+let correctAnswers = 0;
+let attempt = 0;
+
 
 //Coloca as perguntas no array availableQuestions 
 function setAvailableQuestions(){
@@ -65,6 +71,7 @@ function getResult(element){
         element.classList.add("correct");
         //Adiciona o indicador à marca correta
         updateAnswerIndicator("correct");
+        correctAnswers++;
     }
     else{
         //define a cor vermelha para a opção errada
@@ -79,6 +86,7 @@ function getResult(element){
             }
         }
     }
+    attempt++;
     unclickableOptions();
 }
 //Tornar todas as opções inclicáveis ​​​​quando o usuário selecionar uma opção (RESTRITAR O USUÁRIO A ALTERAR A OPÇÃO NOVAMENTE)
@@ -102,12 +110,15 @@ function updateAnswerIndicator(markType){
 function next(){
     if(questionCounter === quiz.length){    
         console.log("quiz over");
+        quizOver();
     }
     else{
         getNewQuestion();
     }
 }
-
+function quizOver(){
+    
+}
 window.onload = function(){
    // Primeiro vai definir todas as perguntas no array availableQuestions
    setAvailableQuestions();

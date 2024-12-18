@@ -3,97 +3,97 @@
 const quiz = [
  {
     q: 'Qual o meu nome?',
-    options:[ 'AMORA','ABACAXI','ABACATE','AÇAI'],
+    options:[ 'COCO','COPO','COLA','CORAL'],
     answer:1 
    },
 {
     q: 'Qual o meu nome?',
-    options:['EMA','ESTOJO','ELEFANTE','ESCADA'],
+    options:['CALA','CAMA','CASA','CAJU'],
     answer:3
    },
 {
     q: 'Qual o meu nome?',
-    options:['ÍNDIO','IOGURTE','IGREJA','IMÃ'],
+    options:['COLA','CABO','COELHO','CALO'],
     answer:0
    },
 {
     q: 'Qual o meu nome?',
-    options:['UVA','UNHA','URUBU','URSO'],
+    options:['CASA','CAMELO','CADEIRA','CADEADO'],
     answer:3
    },
 {
     q: 'Qual o meu nome?',
-    options:['OITO','OVELHA','ORELHA','OURO'],
+    options:['CABIDE','CABEÇA','CASA','CANETA'],
     answer:2
    },
 {
     q: 'Qual o meu nome?',
-    options:['ÁRVORE','ANEL','ARANHA','ASTRONAUTA'],
+    options:['COLHER','CONCHA','CUECA','CUCA'],
     answer:2
    }, 
 {
     q: 'Qual o meu nome?',
-    options:['ESCOVA','ELEFANTE','ESPINHO','ESTRELA'],
+    options:['COUVE','COCO','COELHO','COBERTA'],
     answer:3
    },
 {
     q: 'Qual o meu nome?',
-    options:['OLHOS','ÓCULOS','OURO','OITO'],
+    options:['CAJU','CAMA','CASA','CAIXA'],
     answer:1
    },
 {
     q: 'Qual o meu nome?',
-    options:['ÍNDIO','ILHA','IATE','IMÃ'],
+    options:['COCO','COCA','COLA','COPO'],
     answer:1
    },
 {
     q: 'Qual o meu nome?',
-    options:['HOJE','HIPIPOTAMO','HOMEM','HIENA'],
+    options:['CASA','BALA','FAIXA','CAIXA'],
     answer:3
    },
 {
     q: 'Qual o meu nome?',
-    options:['HORA','ILHA','HARPA','HIENA'],
+    options:['DONA','DADO','DEDO','DENTE'],
     answer:2
    },
 {
     q: 'Qual o meu nome?',
-    options:['HORA','HORTA','HOMEM','HIENA'],
+    options:['DOCE','DAMA','DADO','DOMINÓ'],
     answer:0
    },
 {
     q: 'Qual o meu nome?',
-    options:['HORTELÃ','HARPA','HORA','HORTA'],
+    options:['DATA','DUELO','DAMA','DADO'],
     answer:3
    },
 {
     q: 'Qual o meu nome?',
-    options:['HINO','HOSPITAL','HIENA','HOMEM'],
+    options:['DOIDO','DOMINÓ','DONA','DOCE'],
     answer:1
    },
 {
     q: 'Qual o meu nome?',
-    options:['HOTEL','HOMEM','HARPA','HIENA'],
+    options:['DINHEIRO','DIA','DIAMANTE','DENTE'],
     answer:0
    },
 {
     q: '3 + 4 = 7 ?',
-    options:[ 'true','false'],
+    options:[ 'VERDADEIRO','FALSO'],
     answer:0
    },
 {
     q: 'Qual o meu nome?',
-    options:['HELICOPTERO','HOJE','HORTELÃ','HORA'],
+    options:['DEDO','DENTE','DIA','DUELO'],
     answer:1
    },
 {
     q: 'Qual o meu nome?',
-    options:[ 'JILÓ','JIPE','JOGO','JÓIA'],
+    options:[ 'DIAMANTE','DIA','DEDO','DEDAL'],
     answer:1
    },
 {
     q: 'Qual o meu nome?',
-    options:[ 'JOIA','JOANINHA','JUJUBA','JOGADOR'],
+    options:[ 'DIAMANTE','DEDAL','DITADO','DIA'],
     answer:0
    }
 

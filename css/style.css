@@ -171,8 +171,18 @@ body{
 }
 .quiz-box .answers-indicator div.correct{
     background-color: green;
+    background-image: url("../img/correta.png");
+    backgrond-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;  
 }
-.quiz-box .answers-indicator div.wrong{}
+.quiz-box .answers-indicator div.wrong{
+    background-color: red;
+    background-image: url("../img/errada.png");
+    backgrond-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
 .result-box{
     text-align: center;
 }

@@ -103,6 +103,11 @@ body{
     padding: 20px 0; 
     margin:0;
 }
+.quiz-box .question-text img{
+     max-width: 100%;
+     display: block;
+     margin-top: 15px; 
+}
 .quiz-box .option-container .option{
      background-color: #cccccc;
      padding: 13px 15px;

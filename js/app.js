@@ -169,4 +169,6 @@ function startQuiz(){
    //Para criar indicador de respostas
    answersIndicator();
 }
-
+window.onload = function(){
+    homeBox.querySelector(".total-question").innerHTML = quiz.length;
+}

@@ -5,6 +5,7 @@ const answersIndicatorContainer = document.querySelector(".answers-indicator");
 const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
+const questionLimit = 5;
 
 let questionCounter = 0;
 let currentQuestion;
@@ -24,7 +25,7 @@ function setAvailableQuestions(){
 // Defini o número da pergunta e as opções das perguntas
 function getNewQuestion(){
    // Definir o número da pergunta
-   questionNumber.innerHTML = " Questão " + (questionCounter + 1) + " de " + quiz.length;
+   questionNumber.innerHTML = " Questão " + (questionCounter + 1) + " de " + questionLimit;
    // Definir o texto da pergunta 
    // Receber pergunta aleatória
    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)]
@@ -104,7 +105,7 @@ function unclickableOptions(){
 }
 function answersIndicator(){
     answersIndicatorContainer.innerHTML = '';
-    const totalQuestion = quiz.length;
+    const totalQuestion = questionLimit;
     for(let i=0; i<totalQuestion; i++){
         const indicator = document.createElement("div");
         answersIndicatorContainer.appendChild(indicator);
@@ -115,7 +116,7 @@ function updateAnswerIndicator(markType){
 }
 
 function next(){
-    if(questionCounter === quiz.length){    
+    if(questionCounter === questionLimit){    
         quizOver();
     }
     else{
@@ -131,13 +132,13 @@ function quizOver(){
 }
 //Mostra o resultado do quiz
 function quizResult(){
-   resultBox.querySelector(".total-question").innerHTML = quiz.length;
+   resultBox.querySelector(".total-question").innerHTML = questionLimit;
    resultBox.querySelector(".total-attempt").innerHTML = attempt;  
    resultBox.querySelector(".total-correct").innerHTML = correctAnswers; 
    resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
-   const percentage = (correctAnswers/quiz.length)*100; 
+   const percentage = (correctAnswers/questionLimit)*100; 
    resultBox.querySelector(".percentage").innerHTML =percentage.toFixed(2) + "%"; 
-   resultBox.querySelector(".total-score").innerHTML =correctAnswers +" / " + quiz.length;  
+   resultBox.querySelector(".total-score").innerHTML =correctAnswers +" / " + questionLimit;  
 }
 function resetQuiz(){
    questionCounter = 0;
@@ -174,5 +175,5 @@ function startQuiz(){
    answersIndicator();
 }
 window.onload = function(){
-    homeBox.querySelector(".total-question").innerHTML = quiz.length;
+    homeBox.querySelector(".total-question").innerHTML = questionLimit;
 }

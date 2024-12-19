@@ -222,3 +222,8 @@ body{
 .result-box .btn{
     margin-right: 20px;
 }
+@media(max-width: 767px){
+     .result-box .btn{
+           margin-bottom: 15px;
+     }
+}

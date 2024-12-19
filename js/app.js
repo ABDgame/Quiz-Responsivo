@@ -34,6 +34,12 @@ function getNewQuestion(){
    const index1= availableQuestions.indexOf(questionIndex); 
     //remova o'questionIndex' no array availableQuestions, para que a pergunta não se repita
     availableQuestions.splice(index1,1);
+    // Mostrar pergunta img se a propriedade 'img' existir
+    if(currentQuestion.hasOwnProperty("img")){
+       const img = document.createElement("img");
+       img.src = currentQuestion.img;
+       questionText.appendChild(img); 
+    }
     //definir opções
     //obtém o comprimento das opções
     const optionLen = currentQuestion.options.length

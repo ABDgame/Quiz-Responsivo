@@ -226,4 +226,7 @@ body{
      .result-box .btn{
            margin-bottom: 15px;
      }
+     body{
+          padding: 15px; 
+     } 
 }

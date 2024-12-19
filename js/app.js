@@ -5,8 +5,7 @@ const answersIndicatorContainer = document.querySelector(".answers-indicator");
 const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
-const questionLimit = 5;
-
+const questionLimit = 5; // Se você quiser todas as perguntas é só trocar o 5 por "quiz.length"
 let questionCounter = 0;
 let currentQuestion;
 let availableQuestions = [];
@@ -145,6 +144,7 @@ function resetQuiz(){
    questionCounter = 0;
    correctAnswers = 0;
    attempt = 0; 
+   availableQuestions = []; 
 }
 function tryAgainQuiz(){
     // Oculta o resultBox

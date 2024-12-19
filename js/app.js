@@ -24,6 +24,7 @@ function setAvailableQuestions(){
 }
 // Defini o número da pergunta e as opções das perguntas
 function getNewQuestion(){
+    console.log(availableQuestions)
    // Definir o número da pergunta
    questionNumber.innerHTML = " Questão " + (questionCounter + 1) + " de " + questionLimit;
    // Definir o texto da pergunta 

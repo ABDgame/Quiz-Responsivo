@@ -132,11 +132,20 @@ function quizResult(){
    resultBox.querySelector(".total-correct").innerHTML = correctAnswers; 
    resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
    const percentage = (correctAnswers/quiz.length)*100; 
-   resultBox.querySelector(".percentage").innerHTML =percentage.toFixed(2) + "%" ; 
-   resultBox.querySelector(".total-score").innerHTML =correctAnswers + " / " + quiz.length;  
+   resultBox.querySelector(".percentage").innerHTML =percentage.toFixed(2) + "%"; 
+   resultBox.querySelector(".total-score").innerHTML =correctAnswers +" / " + quiz.length;  
+}
+function resetQuiz(){
+   questionCounter = 0;
+   correctAnswers = 0;
+   attempt = 0; 
 }
 function tryAgainQuiz(){
-    
+    // Ocultar o resultBox
+    resultBox.classList.add("hide");
+    // Mostrar o quizBox
+    quizBox.classList.remove("hide");
+    resetQuiz();
 }
 
 window.onload = function(){

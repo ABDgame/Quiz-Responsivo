@@ -147,8 +147,9 @@ function tryAgainQuiz(){
     quizBox.classList.remove("hide");
     resetQuiz();
 }
+// ### PONTO DE PARTIDA ###
 
-window.onload = function(){
+function startQuiz(){
    // Primeiro vai definir todas as perguntas no array availableQuestions
    setAvailableQuestions();
    // Segundo vai ligar para obter o valor da função getNewQuestion;

@@ -146,6 +146,7 @@ function tryAgainQuiz(){
     // Mostra o quizBox
     quizBox.classList.remove("hide");
     resetQuiz();
+    startQuiz();
 }
 // ### PONTO DE PARTIDA ###
 

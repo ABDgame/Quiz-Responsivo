@@ -141,12 +141,19 @@ function resetQuiz(){
    attempt = 0; 
 }
 function tryAgainQuiz(){
-    // Ocultar o resultBox
+    // Oculta o resultBox
     resultBox.classList.add("hide");
     // Mostra o quizBox
     quizBox.classList.remove("hide");
     resetQuiz();
     startQuiz();
+}
+function goToHome(){
+   // Oculta o resultBox
+   resultBox.classList.add("hide");
+   // Mostra o quizBox
+   homeBox.classList.remove("hide");
+   resetQuiz();
 }
 // ### PONTO DE PARTIDA ###
 

@@ -143,13 +143,17 @@ function resetQuiz(){
 function tryAgainQuiz(){
     // Ocultar o resultBox
     resultBox.classList.add("hide");
-    // Mostrar o quizBox
+    // Mostra o quizBox
     quizBox.classList.remove("hide");
     resetQuiz();
 }
 // ### PONTO DE PARTIDA ###
 
-function startQuiz(){
+function startQuiz(){ 
+   // Oculta o homeBox
+   homeBox.classList.add("hide");
+   // Mostra o quizBox
+   quizBox.classList.remove("hide");   
    // Primeiro vai definir todas as perguntas no array availableQuestions
    setAvailableQuestions();
    // Segundo vai ligar para obter o valor da função getNewQuestion;

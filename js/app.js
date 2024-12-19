@@ -47,9 +47,9 @@ function getNewQuestion(){
     for(let i=0; i<optionLen; i++){
         //Opção aleatória
        const optonIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)]; 
-       // Obtém a posição de 'optonIndex' nas availableOptions
+       // Obtém a posição de 'optonIndex' na array availableOptions
        const index2 = availableOptions.indexOf(optonIndex);
-       //Remove o 'optonIndex' das opções disponíveis, para que a 'availableOptions' não se repita 
+       //Remove o 'optonIndex' na array availableOptions, para que a 'availableOptions' não se repita 
        availableOptions.splice(index2,1);
        const option = document.createElement("div");
        option.innerHTML = currentQuestion.options[optonIndex];
@@ -72,7 +72,6 @@ function getResult(element){
         //Adiciona o indicador à marca correta
         updateAnswerIndicator("correct");
         correctAnswers++;
-        console.log("correct:"+correctAnswers)
     }
     else{
         //define a cor vermelha para a opção errada
@@ -111,7 +110,6 @@ function updateAnswerIndicator(markType){
 
 function next(){
     if(questionCounter === quiz.length){    
-        console.log("quiz over");
         quizOver();
     }
     else{

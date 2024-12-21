@@ -45,39 +45,39 @@ const quiz = [
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
-    answer:1,
-    img:'img/PIZZA.png'
+    options:[ 'LÁPIS','LATA','LIMÃO','LARANJA'],
+    answer:3,
+    img:'img/LARANJA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
-    answer:1,
-    img:'img/PIZZA.png'
+    options:[ 'LIMÃO','LEITE','LARANJA','LIVRO'],
+    answer:0,
+    img:'img/LIMAO.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    options:[ 'MELANCIA','MANGA','MELÃO','MARACUJÁ'],
     answer:1,
-    img:'img/PIZZA.png'
+    img:'img/MANGA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
-    answer:1,
-    img:'img/PIZZA.png'
+    options:[ 'MANGA','MARACUJÁ','MELÃO','MILHO'],
+    answer:2,
+    img:'img/MELAO.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
-    answer:1,
-    img:'img/PIZZA.png'
+    options:[ 'PEPINO','PIZZA','PENA','PERA'],
+    answer:3,
+    img:'img/PERA.png'
    },
 {
    q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
-    answer:1,
-    img:'img/PIZZA.png'
+    options:[ 'PÊSSEGO','PERA','PEPINO','PIPOCA'],
+    answer:0,
+    img:'img/PESSEGO.png'
    },
 {
    q: 'Qual é o meu nome?',

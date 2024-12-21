@@ -3,88 +3,105 @@
 const quiz = [
  {
     q: 'Qual é o meu nome?',
-    options:[ 'COCO','COPO','COLA','CORAL'],
-    answer:1 
+    options:[ 'ABACAXI','ALFACE','AMEIXA','AMORA'],
+    answer:0,
+    img:'img/ABACAXI.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['CALA','CAMA','CASA','CAJU'],
-    answer:3
+    options:[ 'BALA','BANANA','BATATA','BETERRABA'],
+    answer:1,
+    img:'img/BANANA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['COLA','CABO','COELHO','CALO'],
-    answer:0
+    options:[ 'BOLO','BANANA','BOLACHA','BISCOITO'],
+    answer:2,
+    img:'img/BOLACHA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['CASA','CAMELO','CADEIRA','CADEADO'],
-    answer:3
+    options:[ 'BULE','BATATA','BALA','BOLO'],
+    answer:3,
+    img:'img/BOLO.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['CABIDE','CABEÇA','CASA','CANETA'],
-    answer:2
+    options:[ 'CEREJA','CENOURA','CEGONHA','CESTO'],
+    answer:0,
+    img:'img/CEREJA.png'
    },
 {
-    q: 'Qual  é o meu nome?',
-    options:['COLHER','CONCHA','CUECA','CUCA'],
-    answer:2
+    q: 'Qual é o meu nome?',
+    options:[ 'DADO','DOCE','DENTE','DIA'],
+    answer:1,
+    img:'img/DOCE.png'
    }, 
 {
     q: 'Qual é o meu nome?',
-    options:['COUVE','COCO','COELHO','COBERTA'],
-    answer:3
+    options:[ 'ALMOÇO','PÃO','HAMBÚRGUER','SANDUÍCHE'],
+    answer:2,
+    img:'img/HAMBURGUE.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['CAJU','CAMA','CASA','CAIXA'],
-    answer:1
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['COCO','COCA','COLA','COPO'],
-    answer:1
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['CASA','BALA','FAIXA','CAIXA'],
-    answer:3
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['DONA','DADO','DEDO','DENTE'],
-    answer:2
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['DOCE','DAMA','DADO','DOMINÓ'],
-    answer:0
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
+   },
+{
+   q: 'Qual é o meu nome?',
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
+   },
+{
+   q: 'Qual é o meu nome?',
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
+   },
+{
+   q: 'Qual é o meu nome?',
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['DATA','DUELO','DAMA','DADO'],
-    answer:3
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:['DOIDO','DOMINÓ','DONA','DOCE'],
-    answer:1
-   },
-{
-    q: 'Qual é o meu nome?',
-    options:['DINHEIRO','DIA','DIAMANTE','DENTE'],
-    answer:0
-   },
-{
-    q: '3 + 4 = 7 ?',
-    options:[ 'VERDADEIRO','FALSO'],
-    answer:0
-   },
-{
-    q: 'Qual é o meu nome?',
-    options:['DEDO','DENTE','DIA','DUELO'],
-    answer:1
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
    },
 {
     q: 'Qual é o meu nome?',
@@ -93,14 +110,16 @@ const quiz = [
     img:'img/PIZZA.png'
    },
  {
-    q: 'Qual é o meu nome?',
-    options:[ 'FERRO','FELIZ','FADA','FEIJÃO'],
-    answer:3
+   q: 'Qual é o meu nome?',
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'DIAMANTE','DEDAL','DITADO','DIA'],
-    answer:0
+    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    answer:1,
+    img:'img/PIZZA.png'
    }
 
 ]

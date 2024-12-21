@@ -9,7 +9,7 @@ const quiz = [
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'BALA','BANANA','BATATA','BETERRABA'],
+    options:[ 'BALA','BANANAS','BATATA','BETERRABA'],
     answer:1,
     img:'img/BANANA.png'
    },
@@ -27,7 +27,7 @@ const quiz = [
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'CEREJA','CENOURA','CEGONHA','CESTO'],
+    options:[ 'CEREJAS','CENOURA','CEGONHA','CESTO'],
     answer:0,
     img:'img/CEREJA.png'
    },

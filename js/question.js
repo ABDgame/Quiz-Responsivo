@@ -87,39 +87,117 @@ const quiz = [
    },
 {
    q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
-    answer:1,
-    img:'img/PIZZA.png'
+    options:[ 'ASA','ÁRVORE','AVIÃO','AVE'],
+    answer:2,
+    img:'img/AVIAO.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
-    answer:1,
-    img:'img/PIZZA.png'
+    options:[ 'CORUJA','CASACO','CAMA','CASA'],
+    answer:3,
+    img:'img/CASA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
-    answer:1,
-    img:'img/PIZZA.png'
+    options:[ 'CORUJA','CORTINA','COLHER','CASA'],
+    answer:0,
+    img:'img/CORUJA.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    options:[ 'DADO','DIAMANTE','DIA','DOCE'],
     answer:1,
-    img:'img/PIZZA.png'
+    img:'img/DIAMANTE.png'
    },
  {
    q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
+    options:[ 'GATO','GAVIÃO','GALINHA','GALO'],
+    answer:2,
+    img:'img/GALINHA.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'GOLFINHO','GOLA','GALO','GATO'],
+    answer:3,
+    img:'img/GATO.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'LEÃO','LEITE','LIVRO','LOBO'],
+    answer:0,
+    img:'img/LEAO.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'MALA','MAÇÃ','MARACUJÁ','PERA'],
     answer:1,
-    img:'img/PIZZA.png'
+    img:'img/MACA.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'MAÇÃ','MACA','MACACO','MORANGO'],
+    answer:2,
+    img:'img/MACACO.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'NOVE','NOZES','GELO','NEVE'],
+    answer:3,
+    img:'img/NEVE.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'OVELHA','OITO','OURO','OLHOS'],
+    answer:2,
+    img:'img/OVELHA.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'PATO','PINCEL','PENTE','PEIXE'],
+    answer:3,
+    img:'img/PEIXE.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'PIMENTA','PEPINO','PIPOCA','POLVO'],
+    answer:0,
+    img:'img/PIMENTA.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'ROXO','ROSA','ROSCA','REI'],
+    answer:1,
+    img:'img/ROSA.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'SAPO','SAL','SOL','SORVETE'],
+    answer:2,
+    img:'img/SOL.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'SOPA','SOL','SABONETE','SORVETE'],
+    answer:3,
+    img:'img/SORVETE.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'TIGRE','TIJOLO','LEÃO','GATO'],
+    answer:0,
+    img:'img/TIGRE.png'
+   },
+ {
+   q: 'Qual é o meu nome?',
+    options:[ 'UNIVERSO','UNICÓRNIO','UVA','URUBU'],
+    answer:1,
+    img:'img/UNICORNIO.png'
    },
 {
     q: 'Qual é o meu nome?',
-    options:[ 'PINCEL','PIZZA','PIPA','PIPOCA'],
-    answer:1,
-    img:'img/PIZZA.png'
+    options:[ 'VELA','VENTILADOR','VARAL','VACA'],
+    answer:2,
+    img:'img/VARAL.png'
    }
 
 ]

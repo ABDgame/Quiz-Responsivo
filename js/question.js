@@ -117,12 +117,6 @@ const quiz = [
    },
  {
    q: 'Qual é o meu nome?',
-    options:[ 'GOLFINHO','GOLA','GALO','GATO'],
-    answer:3,
-    img:'img/GATO.png'
-   },
- {
-   q: 'Qual é o meu nome?',
     options:[ 'LEÃO','LEITE','LIVRO','LOBO'],
     answer:0,
     img:'img/LEAO.png'

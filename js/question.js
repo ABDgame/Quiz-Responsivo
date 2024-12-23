@@ -148,7 +148,7 @@ const quiz = [
  {
    q: 'Qual é o meu nome?',
     options:[ 'OVELHA','OITO','OURO','OLHOS'],
-    answer:2,
+    answer:0,
     img:'img/OVELHA.png'
    },
  {
@@ -174,12 +174,6 @@ const quiz = [
     options:[ 'SAPO','SAL','SOL','SORVETE'],
     answer:2,
     img:'img/SOL.png'
-   },
- {
-   q: 'Qual é o meu nome?',
-    options:[ 'SOPA','SOL','SABONETE','SORVETE'],
-    answer:3,
-    img:'img/SORVETE.png'
    },
  {
    q: 'Qual é o meu nome?',
